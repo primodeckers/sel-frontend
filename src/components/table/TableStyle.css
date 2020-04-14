@@ -1,0 +1,9 @@
+table { 
+    border-collapse: separate;
+    border-spacing: 2rem;
+ }
+td:first-child { border-top-left-radius: 1.2rem; }
+td:last-child { border-top-right-radius: 1.2rem; }
+td:first-child { border-bottom-left-radius: 1.2rem; }
+ td:last-child { border-bottom-right-radius: 1.2rem; }
+ td {border: none}
